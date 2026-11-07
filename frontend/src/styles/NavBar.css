@@ -1,0 +1,42 @@
+.navbar-custom {
+  background: linear-gradient(
+    90deg,
+    #1333B6,
+    #004CD3
+  );
+
+  padding: 1rem 2rem;
+
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 2rem;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-title {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: var(--light-pink);
+}
